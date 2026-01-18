@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_keyboard = capstone_robot.teleop_keyboard:main
+

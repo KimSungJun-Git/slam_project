@@ -1,0 +1,33 @@
+running develop
+running egg_info
+creating capstone_robot.egg-info
+writing capstone_robot.egg-info/PKG-INFO
+writing dependency_links to capstone_robot.egg-info/dependency_links.txt
+writing entry points to capstone_robot.egg-info/entry_points.txt
+writing requirements to capstone_robot.egg-info/requires.txt
+writing top-level names to capstone_robot.egg-info/top_level.txt
+writing manifest file 'capstone_robot.egg-info/SOURCES.txt'
+reading manifest file 'capstone_robot.egg-info/SOURCES.txt'
+writing manifest file 'capstone_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kim/turtle_ws/install/capstone_robot/lib/python3.10/site-packages/capstone-robot.egg-link (link to .)
+Installing teleop_keyboard script to /home/kim/turtle_ws/install/capstone_robot/lib/capstone_robot
+
+Installed /home/kim/turtle_ws/build/capstone_robot
+running symlink_data
+creating /home/kim/turtle_ws/install/capstone_robot/share/ament_index
+creating /home/kim/turtle_ws/install/capstone_robot/share/ament_index/resource_index
+creating /home/kim/turtle_ws/install/capstone_robot/share/ament_index/resource_index/packages
+symbolically linking /home/kim/turtle_ws/build/capstone_robot/resource/capstone_robot -> /home/kim/turtle_ws/install/capstone_robot/share/ament_index/resource_index/packages
+symbolically linking /home/kim/turtle_ws/build/capstone_robot/package.xml -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot
+creating /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/launch
+symbolically linking /home/kim/turtle_ws/build/capstone_robot/launch/navigation.launch.py -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/launch
+symbolically linking /home/kim/turtle_ws/build/capstone_robot/launch/cartographer_slam.launch.py -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/launch
+symbolically linking /home/kim/turtle_ws/build/capstone_robot/launch/caostone_bringup.launch.py -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/launch
+creating /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/urdf
+symbolically linking /home/kim/turtle_ws/build/capstone_robot/urdf/capstone_robot.urdf -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/urdf
+creating /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/config
+symbolically linking /home/kim/turtle_ws/build/capstone_robot/config/cartographer.lua -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/config
+symbolically linking /home/kim/turtle_ws/build/capstone_robot/config/ekf.yaml -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/config
+symbolically linking /home/kim/turtle_ws/build/capstone_robot/config/nav2_params.yaml -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/config
+creating /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/maps

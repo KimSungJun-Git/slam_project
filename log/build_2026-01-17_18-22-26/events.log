@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000560] (-) JobUnselected: {'identifier': 'custom_slam'}
+[0.000620] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000638] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000652] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000665] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000678] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000691] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000703] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000716] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000730] (capstone_robot) JobQueued: {'identifier': 'capstone_robot', 'dependencies': OrderedDict()}
+[0.000746] (capstone_robot) JobStarted: {'identifier': 'capstone_robot'}
+[0.099793] (-) TimerEvent: {}
+[0.200018] (-) TimerEvent: {}
+[0.300281] (-) TimerEvent: {}
+[0.400506] (-) TimerEvent: {}
+[0.500747] (-) TimerEvent: {}
+[0.601021] (-) TimerEvent: {}
+[0.607026] (capstone_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/kim/turtle_ws/build/capstone_robot/build', '--no-deps', 'symlink_data'], 'cwd': '/home/kim/turtle_ws/build/capstone_robot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'kim', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/kim', 'OLDPWD': '/home/kim/turtle_ws', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1595', 'SYSTEMD_EXEC_PID': '1859', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2604', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/kim/turtle_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'kim', 'JOURNAL_STREAM': '8:9927', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'kim', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': ':/opt/ros/humble/share/turtlebot3_gazebo/models', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/kim-850XCJ:@/tmp/.ICE-unix/1832,unix/kim-850XCJ:/tmp/.ICE-unix/1832', 'INVOCATION_ID': 'f791fcc5e99a452ca96466733fa5efff', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kim/turtle_ws/install/capstone_robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f4048b48-6462-481c-a7db-ea24052838b4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/kim/turtle_ws/build/capstone_robot', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'ko_KR.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kim/turtle_ws/build/capstone_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kim/turtle_ws/install/capstone_robot/lib/python3.10/site-packages:/home/kim/turtle_ws/build/capstone_robot:/home/kim/turtle_ws/install/capstone_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.701135] (-) TimerEvent: {}
+[0.801367] (-) TimerEvent: {}
+[0.813064] (capstone_robot) StdoutLine: {'line': b'running develop\n'}
+[0.901463] (-) TimerEvent: {}
+[0.966112] (capstone_robot) StdoutLine: {'line': b'running egg_info\n'}
+[0.966268] (capstone_robot) StdoutLine: {'line': b'creating capstone_robot.egg-info\n'}
+[0.966385] (capstone_robot) StdoutLine: {'line': b'writing capstone_robot.egg-info/PKG-INFO\n'}
+[0.966591] (capstone_robot) StdoutLine: {'line': b'writing dependency_links to capstone_robot.egg-info/dependency_links.txt\n'}
+[0.966702] (capstone_robot) StdoutLine: {'line': b'writing entry points to capstone_robot.egg-info/entry_points.txt\n'}
+[0.966780] (capstone_robot) StdoutLine: {'line': b'writing requirements to capstone_robot.egg-info/requires.txt\n'}
+[0.966860] (capstone_robot) StdoutLine: {'line': b'writing top-level names to capstone_robot.egg-info/top_level.txt\n'}
+[0.967055] (capstone_robot) StdoutLine: {'line': b"writing manifest file 'capstone_robot.egg-info/SOURCES.txt'\n"}
+[0.968591] (capstone_robot) StdoutLine: {'line': b"reading manifest file 'capstone_robot.egg-info/SOURCES.txt'\n"}
+[0.969147] (capstone_robot) StdoutLine: {'line': b"writing manifest file 'capstone_robot.egg-info/SOURCES.txt'\n"}
+[0.970249] (capstone_robot) StdoutLine: {'line': b'running build_ext\n'}
+[0.970407] (capstone_robot) StdoutLine: {'line': b'Creating /home/kim/turtle_ws/install/capstone_robot/lib/python3.10/site-packages/capstone-robot.egg-link (link to .)\n'}
+[0.971068] (capstone_robot) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/kim/turtle_ws/install/capstone_robot/lib/capstone_robot\n'}
+[0.971328] (capstone_robot) StdoutLine: {'line': b'\n'}
+[0.971423] (capstone_robot) StdoutLine: {'line': b'Installed /home/kim/turtle_ws/build/capstone_robot\n'}
+[0.971485] (capstone_robot) StdoutLine: {'line': b'running symlink_data\n'}
+[0.971581] (capstone_robot) StdoutLine: {'line': b'creating /home/kim/turtle_ws/install/capstone_robot/share/ament_index\n'}
+[0.971650] (capstone_robot) StdoutLine: {'line': b'creating /home/kim/turtle_ws/install/capstone_robot/share/ament_index/resource_index\n'}
+[0.971704] (capstone_robot) StdoutLine: {'line': b'creating /home/kim/turtle_ws/install/capstone_robot/share/ament_index/resource_index/packages\n'}
+[0.971780] (capstone_robot) StdoutLine: {'line': b'symbolically linking /home/kim/turtle_ws/build/capstone_robot/resource/capstone_robot -> /home/kim/turtle_ws/install/capstone_robot/share/ament_index/resource_index/packages\n'}
+[0.971834] (capstone_robot) StdoutLine: {'line': b'symbolically linking /home/kim/turtle_ws/build/capstone_robot/package.xml -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot\n'}
+[0.971888] (capstone_robot) StdoutLine: {'line': b'creating /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/launch\n'}
+[0.971939] (capstone_robot) StdoutLine: {'line': b'symbolically linking /home/kim/turtle_ws/build/capstone_robot/launch/navigation.launch.py -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/launch\n'}
+[0.972024] (capstone_robot) StdoutLine: {'line': b'symbolically linking /home/kim/turtle_ws/build/capstone_robot/launch/cartographer_slam.launch.py -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/launch\n'}
+[0.972119] (capstone_robot) StdoutLine: {'line': b'symbolically linking /home/kim/turtle_ws/build/capstone_robot/launch/caostone_bringup.launch.py -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/launch\n'}
+[0.972193] (capstone_robot) StdoutLine: {'line': b'creating /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/urdf\n'}
+[0.972260] (capstone_robot) StdoutLine: {'line': b'symbolically linking /home/kim/turtle_ws/build/capstone_robot/urdf/capstone_robot.urdf -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/urdf\n'}
+[0.972313] (capstone_robot) StdoutLine: {'line': b'creating /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/config\n'}
+[0.972365] (capstone_robot) StdoutLine: {'line': b'symbolically linking /home/kim/turtle_ws/build/capstone_robot/config/cartographer.lua -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/config\n'}
+[0.972416] (capstone_robot) StdoutLine: {'line': b'symbolically linking /home/kim/turtle_ws/build/capstone_robot/config/ekf.yaml -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/config\n'}
+[0.972467] (capstone_robot) StdoutLine: {'line': b'symbolically linking /home/kim/turtle_ws/build/capstone_robot/config/nav2_params.yaml -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/config\n'}
+[0.972535] (capstone_robot) StdoutLine: {'line': b'creating /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/maps\n'}
+[1.001567] (-) TimerEvent: {}
+[1.003504] (capstone_robot) CommandEnded: {'returncode': 0}
+[1.017005] (capstone_robot) JobEnded: {'identifier': 'capstone_robot', 'rc': 0}
+[1.017677] (-) EventReactorShutdown: {}

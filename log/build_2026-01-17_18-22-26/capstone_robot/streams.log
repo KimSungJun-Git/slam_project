@@ -1,0 +1,35 @@
+[0.608s] Invoking command in '/home/kim/turtle_ws/build/capstone_robot': PYTHONPATH=/home/kim/turtle_ws/build/capstone_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kim/turtle_ws/install/capstone_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kim/turtle_ws/build/capstone_robot/build --no-deps symlink_data
+[0.812s] running develop
+[0.965s] running egg_info
+[0.966s] creating capstone_robot.egg-info
+[0.966s] writing capstone_robot.egg-info/PKG-INFO
+[0.966s] writing dependency_links to capstone_robot.egg-info/dependency_links.txt
+[0.966s] writing entry points to capstone_robot.egg-info/entry_points.txt
+[0.966s] writing requirements to capstone_robot.egg-info/requires.txt
+[0.966s] writing top-level names to capstone_robot.egg-info/top_level.txt
+[0.966s] writing manifest file 'capstone_robot.egg-info/SOURCES.txt'
+[0.968s] reading manifest file 'capstone_robot.egg-info/SOURCES.txt'
+[0.968s] writing manifest file 'capstone_robot.egg-info/SOURCES.txt'
+[0.970s] running build_ext
+[0.970s] Creating /home/kim/turtle_ws/install/capstone_robot/lib/python3.10/site-packages/capstone-robot.egg-link (link to .)
+[0.970s] Installing teleop_keyboard script to /home/kim/turtle_ws/install/capstone_robot/lib/capstone_robot
+[0.971s] 
+[0.971s] Installed /home/kim/turtle_ws/build/capstone_robot
+[0.971s] running symlink_data
+[0.971s] creating /home/kim/turtle_ws/install/capstone_robot/share/ament_index
+[0.971s] creating /home/kim/turtle_ws/install/capstone_robot/share/ament_index/resource_index
+[0.971s] creating /home/kim/turtle_ws/install/capstone_robot/share/ament_index/resource_index/packages
+[0.971s] symbolically linking /home/kim/turtle_ws/build/capstone_robot/resource/capstone_robot -> /home/kim/turtle_ws/install/capstone_robot/share/ament_index/resource_index/packages
+[0.971s] symbolically linking /home/kim/turtle_ws/build/capstone_robot/package.xml -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot
+[0.971s] creating /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/launch
+[0.971s] symbolically linking /home/kim/turtle_ws/build/capstone_robot/launch/navigation.launch.py -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/launch
+[0.971s] symbolically linking /home/kim/turtle_ws/build/capstone_robot/launch/cartographer_slam.launch.py -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/launch
+[0.971s] symbolically linking /home/kim/turtle_ws/build/capstone_robot/launch/caostone_bringup.launch.py -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/launch
+[0.971s] creating /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/urdf
+[0.972s] symbolically linking /home/kim/turtle_ws/build/capstone_robot/urdf/capstone_robot.urdf -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/urdf
+[0.972s] creating /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/config
+[0.972s] symbolically linking /home/kim/turtle_ws/build/capstone_robot/config/cartographer.lua -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/config
+[0.972s] symbolically linking /home/kim/turtle_ws/build/capstone_robot/config/ekf.yaml -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/config
+[0.972s] symbolically linking /home/kim/turtle_ws/build/capstone_robot/config/nav2_params.yaml -> /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/config
+[0.972s] creating /home/kim/turtle_ws/install/capstone_robot/share/capstone_robot/maps
+[1.003s] Invoked command in '/home/kim/turtle_ws/build/capstone_robot' returned '0': PYTHONPATH=/home/kim/turtle_ws/build/capstone_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kim/turtle_ws/install/capstone_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kim/turtle_ws/build/capstone_robot/build --no-deps symlink_data
